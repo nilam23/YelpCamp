@@ -1,28 +1,15 @@
 # Features:
 
 ## Setup 01:
-- Add landing page "/landing"
-- Add campgrounds page "/campgrounds" that lists all the campgrounds.
-- Each campground has Name and Image attributes.
+- To add and configure mongoose.
+- To setup a Campground model.
+- To use Campground model inside of our routes.
 
 ## Setup 02:
-- Create our header and footer partials
-- Add in BootStrap
-
-## Setup 03:
-- Add a new campground POST route "/campgrounds"
-- Add in body-parser
-- Add a new route "/campgrounds/new" to show to the form
-- Add a basic form
-- Handle the POST request and push submitted data to the array
-
-## Setup 04:
-- Style the campgrounds page
-- Make campgrounds display in a grid
-
-## Setup 05:
-- Add a navbar to all the templates
-- Style the new campground form
+- To create another route called '/show/:id' which shows information about the selected campground.
+- Then, to find the campground with the provided id and render the show template for that campground.
+- To demonstrate the use of db.collection.drop() to delete everything that we dont care about.
+- To demonstrate the use of findById(id, callback) method in mongoose.
 
 # Steps to run:
 - Install dependencies using `npm install dependecies`
