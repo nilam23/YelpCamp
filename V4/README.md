@@ -1,4 +1,4 @@
-# Version-03 Features:
+# Version-04 Features:
 
 ## Setup 01:
 - To understand and implement the concept of nested routes.
@@ -14,9 +14,3 @@
 ### New RESTful routes to be added (NESTED ROUTES):
 - /campgrounds/:id/comments/new (GET- provides the form for adding a new comment to the selected campground)
 - /campgrounds/:id/comments/ (POST- creates a new comment to the selected campground)
-
-
-# Steps to run:
-- Install dependencies using `npm install dependecies`
-- Run the server using `node app.js`
-- Go to `localhost:3000` and you're all set.
