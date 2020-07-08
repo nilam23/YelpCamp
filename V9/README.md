@@ -16,3 +16,6 @@
 ## Setup 04 (Authorization 02):
 - To ensure user who's logged in and owns a comment can only edit/delete a comment.
 - To hide/show the edit and delete buttons accordingly.
+
+## Setup 05:
+- To add all the middlewares in a separate directory.
